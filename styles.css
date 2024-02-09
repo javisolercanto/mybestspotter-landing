@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+header {
+    background-color: transparent;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.motivation {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.motivation h2 {
+    color: #000;
+    font-size: 20px;
+}
+
+
+.app-links a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    border: 0px solid #000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.app-links a .store-logo {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.app-links a {
+    position: relative;
+}
+
+.app-links a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.app-links a:hover::after {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.image img {
+    width: 300px;
+    /* Ajusta el tamaño de la imagen según necesites */
+    border-radius: 5px;
+}
