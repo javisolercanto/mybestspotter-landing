@@ -30,7 +30,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
 }
 
 .container-2 {
@@ -93,6 +93,21 @@ header {
     width: 300px;
     /* Ajusta el tamaño de la imagen según necesites */
     border-radius: 5px;
+}
+
+.socials-container {
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 40px;
+}
+
+.socials-container a {
+    color: #000;
+    color: null;
 }
 
 @media only screen and (max-width: 600px) {
