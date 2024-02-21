@@ -6,8 +6,11 @@ body {
 }
 
 header {
-    background-color: transparent;
-    padding: 20px;
+    background-color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .logo {
@@ -30,7 +33,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
 }
 
 .privacy-policy-container {
